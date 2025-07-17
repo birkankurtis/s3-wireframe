@@ -25,8 +25,6 @@
     flex-direction: row;
     text-align: right;    
     width: 750px;
-    
-    
 }
 #menu :hover {
     background-color: #000;
@@ -46,18 +44,20 @@
 }
 #gallery {
     width: 750px;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     margin: auto;
     justify-content: space-between;
     align-items: center;
     gap : 10px;
+    display: flex;
+    box-sizing: border-box;
 }
 #content {
     width: 750px;
     color: black;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     text-decoration: none;
     display: flex;
@@ -65,6 +65,7 @@
     font-weight : bold;
     font-size: 20px;
     align-items: center;
+
     
 }
 #footer {
@@ -73,7 +74,7 @@
     color: white;
     margin: auto;
     text-align: center;
-    padding: 30px;
+    padding: 0px;
 
 
 }
