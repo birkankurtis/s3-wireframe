@@ -12,19 +12,28 @@
     color: black;
     display: flex;
     align-items: center;
-    display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: auto;
+    padding: 20px 0px;
+    display: flex;
 }
-#menu a {
-    text-decoration: none;
+#menu{
     background-color: #777;
     color: white;
     padding:20px;
-    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
     text-align: right;    
     width: 750px;
+    justify-content: end;
+}
+#menu a {
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    display: inline-block;
+    background-color: #777;
+
     
 }
 #menu :hover {
@@ -32,7 +41,7 @@
 }
 #hero {
     width: 750px;
-    height: 300px;
+    height: 100px;
     background-color: #777;
     color: white;
     text-align: center;
@@ -47,29 +56,38 @@
 }
 #gallery {
     width: 750px;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    gap : 10px;
     display: flex;
     box-sizing: border-box;
+    margin:auto;
+    gap: 10px;
 }
 #content {
     width: 750px;
-    color: black;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    justify-content: space-between; 
     font-weight : bold;
-    font-size: 20px;
-    align-items: center;
-
+    font-size: 25px;
+    gap:15px;
     
+}
+#content a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1
+}
+#content a:hover {
+    text-decoration: none;
+    color:gray
 }
 #footer {
     width:750px;
@@ -78,6 +96,4 @@
     margin: auto;
     text-align: center;
     padding: 20px;
-
-
 }
