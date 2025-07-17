@@ -7,23 +7,73 @@
 
 /* #footer butonu metni 'Başa dön' olmalı */
 
-.header {
+#header {
     width: 750px;
-    background-color: grey;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    margin: auto;
+    padding: auto;
 }
-.üst {
+#menu a {
     text-decoration: none;
-    background-color: grey;
+    background-color: #777;
     color: white;
-    justify-content: flex-end;
-    align-items: end;
-    padding:10px;
-
-
+    padding:20px;
+    flex-direction: row;
+    text-align: right;    
+    width: 750px;
     
+    
+}
+#menu :hover {
+    background-color: #000;
+}
+#hero {
+    width: 750px;
+    background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 150px 0px;
+    font-weight: bold;
+    margin:auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#gallery {
+    width: 750px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap : 10px;
+}
+#content {
+    width: 750px;
+    color: black;
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight : bold;
+    font-size: 20px;
+    align-items: center;
+    
+}
+#footer {
+    width:750px;
+    background-color: #777;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+
+
 }
